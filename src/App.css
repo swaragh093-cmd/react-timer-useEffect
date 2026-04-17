@@ -1,0 +1,10 @@
+
+button {width: 100%;max-width: 250px;padding: 20px;color:#fff;}
+h1{color: rgb(31, 136, 136); text-align: center;}
+.timer {display: flex;justify-content: center;align-items: center;font-size: 2rem;margin-top: 20px;gap:10px;}
+.time{text-align: center;padding: 20px 0; font-size: 40px; font-weight:bold;}
+
+
+
+
+
