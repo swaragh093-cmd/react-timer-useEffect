@@ -34,15 +34,15 @@ import './App.css'
   };
 
   return (
-    <>   
-    <h1>Timer</h1>
-    <div className="timer">
-          <button onClick={startTime}>Start Time</button>
-          <button onClick={stopTime}>Stop Time</button>
-          <button onClick={resetTime}>Reset Time</button>
-    </div> 
-    <p className="time">{formatTime()}</p>  
-    </>
+    <div className="app-container">   
+      <h1>Timer</h1>
+      <div className="time-display">{formatTime()}</div>  
+      <div className="button-group">
+            <button className="btn btn-start" onClick={startTime}>Start Time</button>
+            <button className="btn btn-stop" onClick={stopTime}>Stop Time</button>
+            <button className="btn btn-reset" onClick={resetTime}>Reset Time</button>
+      </div> 
+    </div>
   )
 }
 export default App;
